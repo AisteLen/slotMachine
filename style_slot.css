@@ -1,0 +1,206 @@
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.direction-col {
+    flex-direction: column;
+}
+
+.j-end {
+    justify-content: end;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.j-between {
+    justify-content: space-between;
+}
+
+.j-around {
+    justify-content: space-around;
+}
+
+.a-center {
+    align-items: center;
+}
+
+.a-end {
+    align-items: end;
+}
+
+.a-start {
+    align-items: start;
+}
+
+.h500 {
+    height: 500px;
+}
+
+.h100 {
+    height: 100px;
+}
+
+.h200 {
+    height: 200px;
+}
+
+.h350 {
+    height: 350px;
+}
+
+.w300 {
+    width: 300px;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+.gap10 {
+    gap: 10px
+}
+
+.gap20 {
+    gap: 20px
+}
+
+.gap30 {
+    gap: 30px
+}
+
+.flex04 {
+    flex: 0.4;
+}
+
+.flex07 {
+    flex: 0.7;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.flex2 {
+    flex: 2;
+}
+
+.flex3 {
+    flex: 3;
+}
+
+.flex4 {
+    flex: 4;
+}
+
+.flex6 {
+    flex: 6;
+}
+
+.order1 {
+    order: 1
+}
+
+.order2 {
+    order: 2
+}
+
+.order3 {
+    order: 3
+}
+
+.order4 {
+    order: 4
+}
+
+.a-self {
+    align-self: center;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.d-none {
+    display: none;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.col-reverse {
+    flex-direction: column-reverse;
+}
+
+/*     */
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+    font-family: "Sedan SC", serif;
+}
+
+.slotMachine {
+    margin: 30px auto;
+    background-color: whitesmoke;
+    width: 500px;
+    height: 300px;
+}
+
+#playerMoney {
+    margin: 30px;
+    font-size: 24px;
+}
+
+.slotMachine > div {
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: rgba(96,130,88,0.85);
+}
+
+.slotMachine > div > div {
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: rgba(107,129,130,0.85)
+}
+.bottom {
+    width: 30%;
+    margin: 30px auto;
+}
+
+input {
+    margin: 5px;
+    border-radius: 15px;
+}
+button {
+    margin: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: rgba(96,130,88,0.85);
+}
+button:hover {
+    background-color: rgba(96,130,88,0.55);
+}
+
+
